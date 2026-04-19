@@ -2,7 +2,7 @@
 
 Personal website / portfolio — [kavya-shankar.github.io](https://kavya-shankar.github.io)
 
-Inspired by the [Jon Barron](https://jonbarron.info/) / [Haofei Xu](https://haofeixu.github.io/) academic template, but built from scratch in plain HTML + CSS (no Jekyll, no build step).
+Inspired by the [Jon Barron](https://jonbarron.info/) academic template, but built from scratch in plain HTML + CSS (no Jekyll, no build step).
 
 ## Structure
 
@@ -47,7 +47,7 @@ Inspired by the [Jon Barron](https://jonbarron.info/) / [Haofei Xu](https://haof
   ```html
   <img src="assets/images/portrait.jpg" class="portrait" alt="Kavya Shankar" />
   ```
-- **Update the CV.** Replace `assets/Kavya_Shankar_CV_Feb2026.pdf` with a newer version; the link in the header will pick it up automatically as long as the filename matches.
+- **Update the CV.** Replace `assets/Kavya_Shankar_CV.pdf` with a newer version; the link in the header will pick it up automatically as long as the filename matches.
 - **Add GitHub / Scholar links.** Search `index.html` for `href="https://github.com/"` and `href="#"` (the scholar one) and paste in your real URLs.
 - **New project?** Copy one of the `<div class="project">…</div>` blocks and edit. Thumbnails are pure CSS (no images needed) — pick from `thumb-nlp`, `thumb-cv`, `thumb-time`, `thumb-robot`, `thumb-chat`, `thumb-retina`, or add your own `::before` pattern in `assets/style.css`.
 
