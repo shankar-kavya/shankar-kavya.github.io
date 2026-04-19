@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000;
+  line-height: 1.5;
+}
+
+.page {
+  margin: 0 auto;
+}
+
+a, a:visited {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+/* Big display name, centered — the defining visual of the Barron/Haofei template */
+n {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+/* Section heading */
+heading {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  display: block;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+/* Project / paper title */
+papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+img {
+  border: 1px solid #eee;
+  display: block;
+}
+
+/* Placeholder thumbnail — simple neutral block, nothing fancy */
+.thumb-placeholder {
+  width: 200px;
+  height: 130px;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb-inner {
+  font-family: 'Lato', monospace;
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+/* Mobile — collapse the two-column rows */
+@media (max-width: 680px) {
+  .page {
+    width: 100% !important;
+  }
+  table { width: 100% !important; }
+  td {
+    display: block !important;
+    width: 100% !important;
+    padding: 8px 4px !important;
+  }
+  n { font-size: 26px; }
+  img { max-width: 100%; height: auto; }
+  .thumb-placeholder { width: 100%; }
+}
