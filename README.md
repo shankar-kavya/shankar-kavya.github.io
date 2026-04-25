@@ -1,6 +1,6 @@
 # kavya-shankar.github.io
 
-Personal website / portfolio — [kkavyashankar0009.github.io](https://shankarkavya.github.io)
+Personal website / portfolio — [shankarkavya.github.io](https://shankarkavya.github.io)
 
 Inspired by the [Jon Barron](https://jonbarron.info/) academic template, but built from scratch in plain HTML + CSS (no Jekyll, no build step).
 
