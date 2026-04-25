@@ -1,6 +1,6 @@
 # kavya-shankar.github.io
 
-Personal website / portfolio — [kkavyashankar0009.github.io](https://kkavyashankar0009.github.io)
+Personal website / portfolio — [kkavyashankar0009.github.io](https://shankarkavya.github.io)
 
 Inspired by the [Jon Barron](https://jonbarron.info/) academic template, but built from scratch in plain HTML + CSS (no Jekyll, no build step).
 
@@ -20,7 +20,7 @@ Inspired by the [Jon Barron](https://jonbarron.info/) academic template, but bui
 
 ## Deploy to GitHub Pages
 
-### Option A — User site at `kavya-shankar.github.io` (recommended)
+### Option A — User site at `shankarkavya.github.io` (recommended)
 
 1. Create a new public repo on GitHub named exactly **`<your-username>.github.io`** (e.g. `kavya-shankar.github.io`).
 2. Upload everything in this folder to the root of that repo. Either via the GitHub web UI (drag-and-drop the files) or from your terminal:
